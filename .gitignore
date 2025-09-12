@@ -1,0 +1,19 @@
+# Ignore Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+.venv311/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS junk
+.DS_Store
+
+# Ignore training outputs
+artifacts/
+*.png
